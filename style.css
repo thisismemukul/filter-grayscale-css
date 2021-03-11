@@ -1,0 +1,14 @@
+img{
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	filter: grayscale(100%);
+	transition: filter 0.5s;
+}
+img:hover{
+	filter: grayscale(0);
+	transition: 0.5s;
+	cursor: cell;
+}
